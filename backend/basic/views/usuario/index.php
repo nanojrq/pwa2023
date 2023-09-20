@@ -32,8 +32,8 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'username',
             'name',
-            'password',
-            'authkey',
+            //'password',
+            //'authkey',
             //'accesstoken',
             [
                 'class' => ActionColumn::className(),
