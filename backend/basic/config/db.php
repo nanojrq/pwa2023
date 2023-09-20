@@ -2,8 +2,8 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host='.$_ENV['DDBB_HOST'].';dbname='.$_ENV['DDBB_NAME'].'',
-    'username' => 'root',
+    'dsn' => 'pgsql:host='.$_ENV['DDBB_HOST'].';dbname='.$_ENV['DDBB_NAME'].'',
+    'username' => 'pwauser',
     'password' => $_ENV['DDBB_PASSWORD'],
     'charset' => 'utf8',
 
