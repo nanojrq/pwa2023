@@ -16,5 +16,9 @@ services:
     volumes:
       - ./backend/composer/cache:/root/.composer/cache:delegated
       - ./backend/basic:/app:delegated
+    environment:
+      DDBB_NAME: pwa
+      DDBB_HOST: postgres
+      DDBB_PASSWORD: pwakey
     ports:
       - '8000:80'
