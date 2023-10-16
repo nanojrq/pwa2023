@@ -20,6 +20,6 @@ services:
       DDBB_NAME: pwa
       DDBB_HOST: postgres
       DDBB_PASSWORD: pwakey
-      PRODUCCION: 0
+      PRODUCCION: $PRODUCCION
     ports:
       - '8000:80'
