@@ -48,11 +48,13 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-           /* 'rules' => [
+            'rules' => [
+                [
                 'class' => 'yii\rest\UrlRule',
                 'pluralize' => false,
                 'controller' => 'apiv1/aula',
-            ],*/
+                ]
+            ],
         ],
     ],
     'modules' => [

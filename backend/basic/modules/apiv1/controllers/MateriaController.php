@@ -6,5 +6,5 @@ use yii\rest\ActiveController;
 
 class MateriaController extends ActiveController
 {
-    public $modelClass = 'app\models\Materia';
+    public $modelClass = 'app\modules\apiv1\models\Materia';
 }

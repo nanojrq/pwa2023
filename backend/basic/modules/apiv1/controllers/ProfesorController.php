@@ -6,5 +6,5 @@ use yii\rest\ActiveController;
 
 class ProfesorController extends ActiveController
 {
-    public $modelClass = 'app\models\Profesor';
+    public $modelClass = 'app\modules\apiv1\models\Profesor';
 }
